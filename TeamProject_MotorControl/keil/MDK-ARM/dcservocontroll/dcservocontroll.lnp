@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"dcservocontroll\stm32f4xx_it.o"
+"dcservocontroll\main.o"
+"dcservocontroll\stm32f4xx_hal_msp.o"
+"dcservocontroll\stm32f4xx_hal_pwr_ex.o"
+"dcservocontroll\stm32f4xx_hal_flash_ramfunc.o"
+"dcservocontroll\stm32f4xx_hal.o"
+"dcservocontroll\stm32f4xx_hal_tim_ex.o"
+"dcservocontroll\stm32f4xx_hal_rcc_ex.o"
+"dcservocontroll\stm32f4xx_hal_cortex.o"
+"dcservocontroll\stm32f4xx_hal_pwr.o"
+"dcservocontroll\stm32f4xx_hal_uart.o"
+"dcservocontroll\stm32f4xx_hal_gpio.o"
+"dcservocontroll\stm32f4xx_hal_rcc.o"
+"dcservocontroll\stm32f4xx_hal_tim.o"
+"dcservocontroll\stm32f4xx_hal_flash.o"
+"dcservocontroll\stm32f4xx_hal_dma_ex.o"
+"dcservocontroll\stm32f4xx_hal_flash_ex.o"
+"dcservocontroll\stm32f4xx_hal_dma.o"
+"dcservocontroll\startup_stm32f407xx.o"
+"dcservocontroll\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "dcservocontroll\dcservocontroll.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "dcservocontroll.map" -o dcservocontroll\dcservocontroll.axf
