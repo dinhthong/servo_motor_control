@@ -5,3 +5,4 @@
 ## Info
 - Mini project at BKU
 - Finished date: 6 May 2017
+- Other related documents: `Google Drive -> Up for sharing -> Project_servo_motor_control`
