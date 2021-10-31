@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu=Cortex-M4.fp.sp
 "dcservocontroll\stm32f4xx_it.o"
 "dcservocontroll\main.o"
 "dcservocontroll\stm32f4xx_hal_msp.o"
@@ -19,7 +19,7 @@
 "dcservocontroll\stm32f4xx_hal_dma.o"
 "dcservocontroll\startup_stm32f407xx.o"
 "dcservocontroll\system_stm32f4xx.o"
---library_type=microlib --strict --scatter "dcservocontroll\dcservocontroll.sct"
---diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--library_type=microlib --strict --scatter "dcservocontroll\dcservocontrol.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list "dcservocontroll.map" -o dcservocontroll\dcservocontroll.axf
+--list "dcservocontrol.map" -o dcservocontroll\dcservocontrol.axf
